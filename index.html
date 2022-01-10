@@ -70,12 +70,15 @@
         <!-- Title -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h1>Meet unique and cute Catgirls nearby.</h1>
-            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-google-play"></i> Download</button>
-            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+            <div class="download-buttons">
+              <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-google-play android-icon"></i> Download</button>
+              <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-apple apple-icon"></i> Download</button>
+            </div>
+            
           </div>
-          <div class="col-md-6 phone-col">
+          <div class="col-lg-6 phone-col iphone-column">
             <img
               class="iphone"
               src="images/iphone6-small.png"
@@ -89,14 +92,27 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even an idiot could do it.</p>
+      <div class="row">
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the catgirls, the greatest catgirls.</p>
+        <div class="col-md-4 column-features">
+          <i class="icon fas fa-check-circle"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p class="feature-subs">So easy to use, even an idiot could do it.</p>
+        </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your life or your money back.</p>
+        <div class="col-md-4 column-features">
+          <i class="icon fas fa-bullseye"></i>
+          <h3 class="feature-title">Elite Clientele.</h3>
+          <p class="feature-subs">We have all the Catgirls, kawaii Catgirls.</p>
+        </div>
+
+        <div class="col-md-4 column-features">
+          <i class="icon fas fa-heart"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p class="feature-subs">Find the love of your life or your money back.</p>
+        </div>
+
+      </div>
     </section>
 
     <!-- Testimonials -->
