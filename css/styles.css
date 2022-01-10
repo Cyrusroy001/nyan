@@ -33,6 +33,11 @@ h3 {
   padding: 5px 10px;
 }
 
+.brand-logo {
+  width: 50px; 
+  margin-right: 20px;
+}
+
 .container-fluid {
   padding: 3% 13%;
 }
@@ -53,6 +58,7 @@ h3 {
 .navbar {
     margin-bottom: 50px;
     padding: 0;
+    background-color: #f8c8dc;
 }
 
 .navbar-brand {
@@ -153,7 +159,7 @@ h3 {
 /* PRICING  SECTION*/
 
 #pricing {
-  padding: 7% 13%;
+  padding: 5% 13%;
   text-align: center;
 }
 
