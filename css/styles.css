@@ -34,7 +34,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 13%;
 }
 
 .android-icon {
@@ -52,6 +52,7 @@ h3 {
 
 .navbar {
     margin-bottom: 50px;
+    padding: 0;
 }
 
 .navbar-brand {
@@ -62,17 +63,23 @@ h3 {
 
 .iphone {
   margin: 0 30%;
-  transform: rotate(10deg);
+  transform: rotate(13deg);
+  /* position: relative;
+  z-index: 0.99; */
 }
 
 .iphone-column {
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 /* FEATURES SECTION */
 
 #features {
   padding: 7% 13%;
+  background-color: white;
+  /* position: relative;
+  z-index: 1;
+  bottom: 100px; */
 }
 
 .column-features {
@@ -123,6 +130,10 @@ h3 {
 }
 
 /* CAROUSEL SECTION*/
+
+/* .carousel {
+  margin-bottom: 20px;
+} */
 
 .carousel-item {
   padding: 7% 13%;
