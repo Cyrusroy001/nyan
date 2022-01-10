@@ -160,3 +160,31 @@ h3 {
 .price-column {
   padding: 3% 2%;
 }
+
+/* CALL TO ACTION SECTION */
+
+#cta {
+  background-color: #f8c8dc;
+  text-align: center;
+  margin: 0;
+  padding: 5%;
+}
+
+#footer {
+  background-color: #f8c8dc;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.footer-text {
+  margin: 0;
+  ccolor: #8f8f8f;
+}
+
+.footer-buttons {
+  margin-top: 30px;
+}
+
+.download-footer-button {
+  margin: 10px;
+}
