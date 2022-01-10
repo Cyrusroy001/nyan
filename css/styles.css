@@ -1,0 +1,31 @@
+/* TAGS */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* IDs */
+
+#title {
+    background-color: #F8C8DC;
+}
+
+/* CLASSES */
+
+.btn {
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.navbar-brand {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
