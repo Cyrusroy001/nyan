@@ -28,7 +28,10 @@
     />
 
     <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/58a123ae04.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/58a123ae04.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>nyan.</title>
   </head>
@@ -36,10 +39,9 @@
   <body>
     <section id="title">
       <div class="container-fluid">
-
         <!-- Navbar -->
 
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="">nyan.</a>
           <button
             class="navbar-toggler"
@@ -73,10 +75,13 @@
           <div class="col-lg-6">
             <h1>Meet unique and cute Catgirls nearby.</h1>
             <div class="download-buttons">
-              <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-google-play android-icon"></i> Download</button>
-              <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-apple apple-icon"></i> Download</button>
+              <button type="button" class="btn btn-outline-dark btn-lg">
+                <i class="fab fa-google-play android-icon"></i> Download
+              </button>
+              <button type="button" class="btn btn-outline-dark btn-lg">
+                <i class="fab fa-apple apple-icon"></i> Download
+              </button>
             </div>
-            
           </div>
           <div class="col-lg-6 phone-col iphone-column">
             <img
@@ -93,7 +98,6 @@
 
     <section id="features">
       <div class="row">
-
         <div class="col-md-4 column-features">
           <i class="icon fas fa-check-circle"></i>
           <h3 class="feature-title">Easy to use.</h3>
@@ -109,25 +113,69 @@
         <div class="col-md-4 column-features">
           <i class="icon fas fa-heart"></i>
           <h3 class="feature-title">Guaranteed to work.</h3>
-          <p class="feature-subs">Find the love of your life or your money back.</p>
+          <p class="feature-subs">
+            Find the love of your life or your money back.
+          </p>
         </div>
-
       </div>
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>
-        I no longer have to look at manga pages to feel good. I've found the
-        cutest Catgirl on nyan. Nyan!
-      </h2>
-      <img class="testimonial-image" src="images/nerd.jpg" alt="dog-profile" />
-      <em>A Certified Weeb, his Mom's basement</em>
+      <!-- Carousel -->
 
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-pause="hover">
+        <ol class="carousel-indicators">
+          <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+          <!-- <li data-target="#testimonial-carousel" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to look at manga pages to feel good. I've found
+              the cutest Catgirl on nyan. Nyan!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/nerd.jpg"
+              alt="dog-profile"
+            />
+            <em>A Certified Weeb, his Mom's basement</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My son used to be so lonely, but with nyan's help, he has found
+              the love of his life. I think.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>The Weeb's Mom, her home</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev carousel-button"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon carousel-button" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
 
     <!-- Press -->
@@ -135,7 +183,11 @@
     <section id="press">
       <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
       <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
       <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
     </section>
 
