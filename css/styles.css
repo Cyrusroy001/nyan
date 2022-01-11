@@ -52,7 +52,7 @@ h3 {
 
 .download-buttons {
   margin-top: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .navbar {
@@ -172,25 +172,53 @@ h3 {
 #cta {
   background-color: #f8c8dc;
   text-align: center;
-  margin: 0;
-  padding: 3%;
+  padding: 10% 13%;
 }
 
-#footer {
-  background-color: #f8c8dc;
-  text-align: center;
-  padding-bottom: 2%;
-}
-
-.footer-text {
-  margin: 0;
-  color: #8f8f8f;
-}
-
-.footer-buttons {
-  margin-top: 30px;
+.cta-buttons {
+  margin-top: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .download-footer-button {
-  margin: 10px;
+  margin: 0 3%;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  padding: 7% 13%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 3% 1.5%;
+  font-size: 0.7rem;
+  color: black;
+}
+
+.footer-icon:hover {
+  color: #8f8f8f;
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #8f8f8f
+}
+
+
+
+/* MEDIA QUERY */
+
+/* True for tablet size and mobile size*/
+@media (max-width: 1028px) {
+  .iphone {
+    transform: rotate(0);
+    margin: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
 }

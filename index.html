@@ -65,7 +65,12 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a
+                  class="nav-link"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cyrus.roy001@email.com"
+                  target="_blank"
+                  >Contact</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#pricing">Pricing</a>
@@ -78,7 +83,6 @@
         </nav>
 
         <!-- Title -->
-
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet unique and cute Catgirls nearby.</h1>
@@ -282,8 +286,8 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Life Today.</h3>
-      <div class="footer-buttons">
+      <h1>Find the True Love of Your Life Today.</h1>
+      <div class="cta-buttons">
         <button
           type="button"
           class="download-footer-button btn btn-outline-dark btn-md"
@@ -302,6 +306,20 @@
     <!-- Footer -->
 
     <footer id="footer">
+      <div class="footer-icons-div">
+        <a class="footer-link" href="https://twitter.com">
+          <i class="fab fa-twitter footer-icon"></i
+        ></a>
+        <a class="footer-link"  href="https://facebook.com">
+          <i class="fab fa-facebook-f footer-icon"></i
+        ></a>
+        <a class="footer-link"  href="https://instagram.com">
+          <i class="fab fa-instagram footer-icon"></i
+        ></a>
+        <a class="footer-link"  href="https://gmail.com">
+          <i class="fas fa-envelope footer-icon"></i
+        ></a>
+      </div>
       <p class="footer-text">© copyright nyan.</p>
     </footer>
 
@@ -322,5 +340,32 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
   </body>
 </html>
