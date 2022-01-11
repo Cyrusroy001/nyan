@@ -5,7 +5,12 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -42,7 +47,7 @@ p {
 /* NAVBAR SECTION */
 
 .brand-logo {
-  width: 50px; 
+  width: 50px;
   margin-right: 20px;
 }
 
@@ -55,8 +60,8 @@ p {
 }
 
 .navbar {
-    margin-bottom: 50px;
-    padding: 0;
+  margin-bottom: 50px;
+  padding: 0;
 }
 
 .navbar-brand {
@@ -185,7 +190,7 @@ p {
 .footer-text {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  color: #8f8f8f
+  color: #8f8f8f;
 }
 
 /* MEDIA QUERY */
