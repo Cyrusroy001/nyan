@@ -1,45 +1,49 @@
-/* TAGS */
+/* TAGS SECTION*/
 
-h1 {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS SECTION */
+
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
+.section-heading {
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  font-weight: bold;
+/* CONATINERS SECTION */
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
-/* IDs */
-
-#title {
-  background-color: #f8c8dc;
+.colored-section {
+  background-color: #e17f93;
+  color: white;
 }
 
-/* TITLE SECTION */
-
-.download-title-button {
-  margin: 10px;
-  padding: 5px 10px;
-}
+/* NAVBAR SECTION */
 
 .brand-logo {
   width: 50px; 
   margin-right: 20px;
-}
-
-.container-fluid {
-  padding: 3% 13%;
 }
 
 .android-icon {
@@ -50,15 +54,9 @@ h3 {
   font-size: 1.5rem;
 }
 
-.download-buttons {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
 .navbar {
     margin-bottom: 50px;
     padding: 0;
-    background-color: #f8c8dc;
 }
 
 .navbar-brand {
@@ -67,11 +65,28 @@ h3 {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* TITLE SECTION */
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.download-title-button {
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.download-buttons {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .iphone {
   margin: 0 30%;
   transform: rotate(13deg);
-  /* position: relative;
-  z-index: 0.99; */
 }
 
 .iphone-column {
@@ -81,40 +96,33 @@ h3 {
 /* FEATURES SECTION */
 
 #features {
-  padding: 7% 13%;
   background-color: white;
-  /* position: relative;
-  z-index: 1;
-  bottom: 100px; */
 }
 
 .column-features {
-  text-align: center;
   padding: 30px;
   line-height: 1.5;
 }
 
 .icon {
   font-size: 3.5rem;
-  color: #f8c8dc;
+  color: #e17f93;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #fda4ba;
+  color: #cd5e77;
 }
 
 .feature-subs {
   color: #8f8f8f;
 }
 
-/* TESTIMONIALS SECTION */
-
-#testimonials {
-  
-  text-align: center;
-  background-color: #f8c8dc;;
+.feature-title {
+  font-size: 1.4rem;
 }
+
+/* TESTIMONIALS SECTION */
 
 .testimonial-image {
   width: 10%;
@@ -122,11 +130,14 @@ h3 {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 /* PRESS SECTION */
 
 #press {
-  background-color: #f8c8dc;
-  text-align: center;
   padding-bottom: 5%;
 }
 
@@ -135,65 +146,33 @@ h3 {
   margin: 20px 20px 50px;
 }
 
-/* CAROUSEL SECTION*/
-
-/* .carousel {
-  margin-bottom: 20px;
-} */
-
-.carousel-item {
-  padding: 7% 13%;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel .carousel-indicators li {background-color: #8f8f8f;}
-.carousel .carousel-indicators li.active {background-color: black;}
-
 /* PRICING  SECTION*/
-
-#pricing {
-  padding: 5% 13%;
-  text-align: center;
-}
 
 .price-column {
   padding: 3% 2%;
 }
 
-/* CALL TO ACTION SECTION */
-
-#cta {
-  background-color: #f8c8dc;
-  text-align: center;
-  padding: 10% 13%;
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
+/* CALL TO ACTION SECTION */
 .cta-buttons {
   margin-top: 5%;
   /* margin-bottom: 5%; */
 }
 
 .download-footer-button {
-  margin: 0 3%;
+  margin: 10px;
+  padding: 5px 10px;
 }
 
 /* FOOTER SECTION */
 
-#footer {
-  padding: 7% 13%;
-  text-align: center;
-}
-
 .footer-icon {
   margin: 3% 1.5%;
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: black;
 }
 
